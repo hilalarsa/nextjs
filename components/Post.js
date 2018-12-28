@@ -6,8 +6,8 @@ const Post = props => (
       {`
         p {
           background-color: pink;
-          padding: 20px;
           text-align: justify;
+          font-family: "Open Sans", sans-serif;
         }
       `}
     </style>

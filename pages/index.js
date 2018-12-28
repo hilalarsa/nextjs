@@ -1,9 +1,21 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-import Post from "../components/Post";
-import Header from "../components/Header";
+import Ads from "../components/Ads";
+import ArticleHeader from "../components/ArticleHeader";
 import Breadcrumb from "../components/Breadcrumb";
+import Header from "../components/Header";
+import Post from "../components/Post";
+
+const headers = {
+  title: "This is article title",
+  detail: {
+    author: "Someone",
+    company: "Something",
+    datetime: Date()
+  },
+  tag: ["tacom", "tag2", "tag3"]
+};
 
 class App extends React.Component {
   static async getInitialProps({ req }) {
@@ -17,16 +29,14 @@ class App extends React.Component {
         <Header />
         <div>
           <style jsx>{`
-            p {
-              line-height: 1.5;
-            }
-            div {
-            }
             .flex-container {
               display: flex;
-              justify-content: space-between;
             }
-
+            .post {
+              padding-left: 120px;
+              line-height: 1.7;
+              width: 66.6%;
+            }
             .ads {
               width: 33.3%;
             }
@@ -35,9 +45,11 @@ class App extends React.Component {
           <hr />
           <div className="flex-container">
             <div className="post">
-              <h1>This is article title</h1>
-              <div>By author name / Company | Date time hour 123 456:789</div>
-              <div>Tags: something can be use as tags here</div>
+              <ArticleHeader
+                title={headers.title}
+                detail={headers.detail}
+                tag={headers.tag}
+              />
 
               <Post
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -56,17 +68,7 @@ class App extends React.Component {
               />
             </div>
             <div className="ads">
-              <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-              </p>
-              <img
-                src="/static/dogo.jpg"
-                width="100%"
-                alt="theres some desc here"
-              />
+              <Ads />
             </div>
           </div>
           <div className="flex-container">
