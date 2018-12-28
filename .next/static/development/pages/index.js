@@ -11627,41 +11627,54 @@ function (_React$Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-        className: "jsx-1586883043",
+        className: "jsx-1060462572",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        styleId: "1586883043",
-        css: ".flex-container.jsx-1586883043{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.post.jsx-1586883043{padding-left:120px;line-height:1.7;width:66.6%;}.ads.jsx-1586883043{width:33.3%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2hpbGFsaGltYXdhbi9HYXJhc2lsYWJzL3dpbGQtcmVwby9uZXh0VHJhaW5pbmcvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBOEJzQixBQUc0QixBQUdNLEFBS1AsWUFDZCxPQUxrQixnQkFDSixZQUNkLDJCQUxBIiwiZmlsZSI6Ii9ob21lL2hpbGFsaGltYXdhbi9HYXJhc2lsYWJzL3dpbGQtcmVwby9uZXh0VHJhaW5pbmcvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCI7XG5pbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5pbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgQWRzIGZyb20gXCIuLi9jb21wb25lbnRzL0Fkc1wiO1xuaW1wb3J0IEFydGljbGVIZWFkZXIgZnJvbSBcIi4uL2NvbXBvbmVudHMvQXJ0aWNsZUhlYWRlclwiO1xuaW1wb3J0IEJyZWFkY3J1bWIgZnJvbSBcIi4uL2NvbXBvbmVudHMvQnJlYWRjcnVtYlwiO1xuaW1wb3J0IEhlYWRlciBmcm9tIFwiLi4vY29tcG9uZW50cy9IZWFkZXJcIjtcbmltcG9ydCBQb3N0IGZyb20gXCIuLi9jb21wb25lbnRzL1Bvc3RcIjtcblxuY29uc3QgaGVhZGVycyA9IHtcbiAgdGl0bGU6IFwiVGhpcyBpcyBhcnRpY2xlIHRpdGxlXCIsXG4gIGRldGFpbDoge1xuICAgIGF1dGhvcjogXCJTb21lb25lXCIsXG4gICAgY29tcGFueTogXCJTb21ldGhpbmdcIixcbiAgICBkYXRldGltZTogRGF0ZSgpXG4gIH0sXG4gIHRhZzogW1widGFjb21cIiwgXCJ0YWcyXCIsIFwidGFnM1wiXVxufTtcblxuY2xhc3MgQXBwIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgc3RhdGljIGFzeW5jIGdldEluaXRpYWxQcm9wcyh7IHJlcSB9KSB7XG4gICAgY29uc3QgdXNlckFnZW50ID0gcmVxID8gcmVxLmhlYWRlcnNbXCJ1c2VyLWFnZW50XCJdIDogbmF2aWdhdG9yLnVzZXJBZ2VudDtcbiAgICBjb25zb2xlLmxvZyhcIkZldGNoaW5nXCIpO1xuICAgIHJldHVybiB7IHVzZXJBZ2VudCB9O1xuICB9XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdj5cbiAgICAgICAgPEhlYWRlciAvPlxuICAgICAgICA8ZGl2PlxuICAgICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgIC5mbGV4LWNvbnRhaW5lciB7XG4gICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICAucG9zdCB7XG4gICAgICAgICAgICAgIHBhZGRpbmctbGVmdDogMTIwcHg7XG4gICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxLjc7XG4gICAgICAgICAgICAgIHdpZHRoOiA2Ni42JTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIC5hZHMge1xuICAgICAgICAgICAgICB3aWR0aDogMzMuMyU7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgYH08L3N0eWxlPlxuICAgICAgICAgIDxCcmVhZGNydW1iIC8+XG4gICAgICAgICAgPGhyIC8+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4LWNvbnRhaW5lclwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwb3N0XCI+XG4gICAgICAgICAgICAgIDxBcnRpY2xlSGVhZGVyXG4gICAgICAgICAgICAgICAgdGl0bGU9e2hlYWRlcnMudGl0bGV9XG4gICAgICAgICAgICAgICAgZGV0YWlsPXtoZWFkZXJzLmRldGFpbH1cbiAgICAgICAgICAgICAgICB0YWc9e2hlYWRlcnMudGFnfVxuICAgICAgICAgICAgICAvPlxuXG4gICAgICAgICAgICAgIDxQb3N0XG4gICAgICAgICAgICAgICAgdGV4dD1cIkxvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQsIHNlZCBkb1xuICAgICAgICAgICAgICAgIGVpdXNtb2QgdGVtcG9yIGluY2lkaWR1bnQgdXQgbGFib3JlIGV0IGRvbG9yZSBtYWduYSBhbGlxdWEuIFV0XG4gICAgICAgICAgICAgICAgZW5pbSBhZCBtaW5pbSB2ZW5pYW0sIHF1aXMgbm9zdHJ1ZCBleGVyY2l0YXRpb24gdWxsYW1jbyBsYWJvcmlzXG4gICAgICAgICAgICAgICAgbmlzaSB1dCBhbGlxdWlwIGV4IGVhIGNvbW1vZG8gY29uc2VxdWF0LiBEdWlzIGF1dGUgaXJ1cmUgZG9sb3JcIlxuICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHBhZGRpbmc6IFwiNTBweFwiLCBhbGlnbkNvbnRlbnQ6IFwiY2VudGVyXCIgfX0+XG4gICAgICAgICAgICAgICAgPGltZyBzcmM9XCIvc3RhdGljL2RvZ28uanBnXCIgd2lkdGg9XCIxMDAlXCIgLz5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDxQb3N0XG4gICAgICAgICAgICAgICAgdGV4dD1cIkxvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQsIHNlZCBkb1xuICAgICAgICAgICAgICAgIGVpdXNtb2QgdGVtcG9yIGluY2lkaWR1bnQgdXQgbGFib3JlIGV0IGRvbG9yZSBtYWduYSBhbGlxdWEuIFV0XG4gICAgICAgICAgICAgICAgZW5pbSBhZCBtaW5pbSB2ZW5pYW0sIHF1aXMgbm9zdHJ1ZCBleGVyY2l0YXRpb24gdWxsYW1jbyBsYWJvcmlzXG4gICAgICAgICAgICAgICAgbmlzaSB1dCBhbGlxdWlwIGV4IGVhIGNvbW1vZG8gY29uc2VxdWF0LiBEdWlzIGF1dGUgaXJ1cmUgZG9sb3JcIlxuICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImFkc1wiPlxuICAgICAgICAgICAgICA8QWRzIC8+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXgtY29udGFpbmVyXCI+XG4gICAgICAgICAgICA8aDE+SGVsbG88L2gxPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICk7XG4gIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgQXBwO1xuIl19 */\n/*@ sourceURL=/home/hilalhimawan/Garasilabs/wild-repo/nextTraining/pages/index.js */",
+        styleId: "1060462572",
+        css: ".flex-container.jsx-1060462572{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.post.jsx-1060462572{margin:0 auto;line-height:1.7;width:66.6%;}.ads-left.jsx-1060462572{width:5%;}.ads-right.jsx-1060462572{width:33.3%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2hpbGFsaGltYXdhbi9HYXJhc2lsYWJzL3dpbGQtcmVwby9uZXh0VHJhaW5pbmcvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBOEJzQixBQUc0QixBQUdDLEFBS0wsQUFHRyxTQUZkLEdBR0EsRUFSa0IsZ0JBQ0osWUFDZCxnQ0FMQSIsImZpbGUiOiIvaG9tZS9oaWxhbGhpbWF3YW4vR2FyYXNpbGFicy93aWxkLXJlcG8vbmV4dFRyYWluaW5nL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IEFkcyBmcm9tIFwiLi4vY29tcG9uZW50cy9BZHNcIjtcbmltcG9ydCBBcnRpY2xlSGVhZGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0FydGljbGVIZWFkZXJcIjtcbmltcG9ydCBCcmVhZGNydW1iIGZyb20gXCIuLi9jb21wb25lbnRzL0JyZWFkY3J1bWJcIjtcbmltcG9ydCBIZWFkZXIgZnJvbSBcIi4uL2NvbXBvbmVudHMvSGVhZGVyXCI7XG5pbXBvcnQgUG9zdCBmcm9tIFwiLi4vY29tcG9uZW50cy9Qb3N0XCI7XG5cbmNvbnN0IGhlYWRlcnMgPSB7XG4gIHRpdGxlOiBcIlRoaXMgaXMgYXJ0aWNsZSB0aXRsZVwiLFxuICBkZXRhaWw6IHtcbiAgICBhdXRob3I6IFwiU29tZW9uZVwiLFxuICAgIGNvbXBhbnk6IFwiU29tZXRoaW5nXCIsXG4gICAgZGF0ZXRpbWU6IERhdGUoKVxuICB9LFxuICB0YWc6IFtcInRhY29tXCIsIFwidGFnMlwiLCBcInRhZzNcIl1cbn07XG5cbmNsYXNzIEFwcCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG4gIHN0YXRpYyBhc3luYyBnZXRJbml0aWFsUHJvcHMoeyByZXEgfSkge1xuICAgIGNvbnN0IHVzZXJBZ2VudCA9IHJlcSA/IHJlcS5oZWFkZXJzW1widXNlci1hZ2VudFwiXSA6IG5hdmlnYXRvci51c2VyQWdlbnQ7XG4gICAgY29uc29sZS5sb2coXCJGZXRjaGluZ1wiKTtcbiAgICByZXR1cm4geyB1c2VyQWdlbnQgfTtcbiAgfVxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXY+XG4gICAgICAgIDxIZWFkZXIgLz5cbiAgICAgICAgPGRpdj5cbiAgICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICAuZmxleC1jb250YWluZXIge1xuICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLnBvc3Qge1xuICAgICAgICAgICAgICBtYXJnaW46IDAgYXV0bztcbiAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDEuNztcbiAgICAgICAgICAgICAgd2lkdGg6IDY2LjYlO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLmFkcy1sZWZ0IHtcbiAgICAgICAgICAgICAgd2lkdGg6IDUlO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgLmFkcy1yaWdodCB7XG4gICAgICAgICAgICAgIHdpZHRoOiAzMy4zJTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICBgfTwvc3R5bGU+XG4gICAgICAgICAgPEJyZWFkY3J1bWIgLz5cbiAgICAgICAgICA8aHIgLz5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXgtY29udGFpbmVyXCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImFkcy1sZWZ0XCI+XG4gICAgICAgICAgICAgIDxBZHMgLz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwb3N0XCI+XG4gICAgICAgICAgICAgIDxBcnRpY2xlSGVhZGVyXG4gICAgICAgICAgICAgICAgdGl0bGU9e2hlYWRlcnMudGl0bGV9XG4gICAgICAgICAgICAgICAgZGV0YWlsPXtoZWFkZXJzLmRldGFpbH1cbiAgICAgICAgICAgICAgICB0YWc9e2hlYWRlcnMudGFnfVxuICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICA8UG9zdFxuICAgICAgICAgICAgICAgIHRleHQ9XCJMb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2VjdGV0dXIgYWRpcGlzY2luZyBlbGl0LCBzZWQgZG9cbiAgICAgICAgICAgICAgICBlaXVzbW9kIHRlbXBvciBpbmNpZGlkdW50IHV0IGxhYm9yZSBldCBkb2xvcmUgbWFnbmEgYWxpcXVhLiBVdFxuICAgICAgICAgICAgICAgIGVuaW0gYWQgbWluaW0gdmVuaWFtLCBxdWlzIG5vc3RydWQgZXhlcmNpdGF0aW9uIHVsbGFtY28gbGFib3Jpc1xuICAgICAgICAgICAgICAgIG5pc2kgdXQgYWxpcXVpcCBleCBlYSBjb21tb2RvIGNvbnNlcXVhdC4gRHVpcyBhdXRlIGlydXJlIGRvbG9yXCJcbiAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiBcIjUwcHhcIiwgYWxpZ25Db250ZW50OiBcImNlbnRlclwiIH19PlxuICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiL3N0YXRpYy9kb2dvLmpwZ1wiIHdpZHRoPVwiMTAwJVwiIC8+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8UG9zdFxuICAgICAgICAgICAgICAgIHRleHQ9XCJMb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2VjdGV0dXIgYWRpcGlzY2luZyBlbGl0LCBzZWQgZG9cbiAgICAgICAgICAgICAgICBlaXVzbW9kIHRlbXBvciBpbmNpZGlkdW50IHV0IGxhYm9yZSBldCBkb2xvcmUgbWFnbmEgYWxpcXVhLiBVdFxuICAgICAgICAgICAgICAgIGVuaW0gYWQgbWluaW0gdmVuaWFtLCBxdWlzIG5vc3RydWQgZXhlcmNpdGF0aW9uIHVsbGFtY28gbGFib3Jpc1xuICAgICAgICAgICAgICAgIG5pc2kgdXQgYWxpcXVpcCBleCBlYSBjb21tb2RvIGNvbnNlcXVhdC4gRHVpcyBhdXRlIGlydXJlIGRvbG9yXCJcbiAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhZHMtcmlnaHRcIj5cbiAgICAgICAgICAgICAgPEFkcyAvPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgKTtcbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBBcHA7XG4iXX0= */\n/*@ sourceURL=/home/hilalhimawan/Garasilabs/wild-repo/nextTraining/pages/index.js */",
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_Breadcrumb__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 47
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("hr", {
-        className: "jsx-1586883043",
+        className: "jsx-1060462572",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 48
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-        className: "jsx-1586883043" + " " + "flex-container",
+        className: "jsx-1060462572" + " " + "flex-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-        className: "jsx-1586883043" + " " + "post",
+        className: "jsx-1060462572" + " " + "ads-left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 50
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_Ads__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        className: "jsx-1060462572" + " " + "post",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_ArticleHeader__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -11670,14 +11683,14 @@ function (_React$Component) {
         tag: headers.tag,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 54
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_Post__WEBPACK_IMPORTED_MODULE_9__["default"], {
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 59
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
@@ -11685,56 +11698,42 @@ function (_React$Component) {
           padding: "50px",
           alignContent: "center"
         },
-        className: "jsx-1586883043",
+        className: "jsx-1060462572",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
         src: "/static/dogo.jpg",
         width: "100%",
-        className: "jsx-1586883043",
+        className: "jsx-1060462572",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 66
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_Post__WEBPACK_IMPORTED_MODULE_9__["default"], {
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 68
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-        className: "jsx-1586883043" + " " + "ads",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_Ads__WEBPACK_IMPORTED_MODULE_5__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-        className: "jsx-1586883043" + " " + "flex-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h1", {
-        className: "jsx-1586883043",
+        className: "jsx-1060462572" + " " + "ads-right",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 75
         },
         __self: this
-      }, "Hello"))));
+      }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_Ads__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
+      })))));
     }
   }], [{
     key: "getInitialProps",

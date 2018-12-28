@@ -33,24 +33,29 @@ class App extends React.Component {
               display: flex;
             }
             .post {
-              padding-left: 120px;
+              margin: 0 auto;
               line-height: 1.7;
               width: 66.6%;
             }
-            .ads {
+            .ads-left {
+              width: 5%;
+            }
+            .ads-right {
               width: 33.3%;
             }
           `}</style>
           <Breadcrumb />
           <hr />
           <div className="flex-container">
+            <div className="ads-left">
+              <Ads />
+            </div>
             <div className="post">
               <ArticleHeader
                 title={headers.title}
                 detail={headers.detail}
                 tag={headers.tag}
               />
-
               <Post
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -67,12 +72,9 @@ class App extends React.Component {
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"
               />
             </div>
-            <div className="ads">
+            <div className="ads-right">
               <Ads />
             </div>
-          </div>
-          <div className="flex-container">
-            <h1>Hello</h1>
           </div>
         </div>
       </div>
