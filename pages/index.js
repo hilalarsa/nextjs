@@ -6,6 +6,8 @@ import ArticleHeader from "../components/ArticleHeader";
 import Breadcrumb from "../components/Breadcrumb";
 import Header from "../components/Header";
 import Post from "../components/Post";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fabCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const headers = {
   title: "This is article title",
@@ -56,14 +58,23 @@ class App extends React.Component {
                 detail={headers.detail}
                 tag={headers.tag}
               />
+              Social media icons put here
+              <FontAwesomeIcon icon={fabCoffee} />
               <Post
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"
               />
-              <div style={{ padding: "50px", alignContent: "center" }}>
-                <img src="/static/dogo.jpg" width="100%" />
+              <div
+                style={{
+                  height: "auto",
+                  alignContent: "center",
+                  width: "100%",
+                  maxWidth: "700px"
+                }}
+              >
+                <img src="/static/edgeprop.jpg" width="100%" />
               </div>
               <Post
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
