@@ -7,7 +7,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import Header from "../components/Header";
 import Post from "../components/Post";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fabCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const headers = {
   title: "This is article title",
@@ -18,6 +18,9 @@ const headers = {
   },
   tag: ["tacom", "tag2", "tag3"]
 };
+
+const content =
+  '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor <img src="/static/edgeprop.jpg"/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>';
 
 class App extends React.Component {
   static async getInitialProps({ req }) {
@@ -59,13 +62,10 @@ class App extends React.Component {
                 tag={headers.tag}
               />
               Social media icons put here
-              <FontAwesomeIcon icon={fabCoffee} />
-              <Post
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"
-              />
+              <i class="fab fa-whatsapp"></i>
+              
+              <FontAwesomeIcon icon={faCoffee} />
+              <Post content={content} />
               <div
                 style={{
                   height: "auto",
@@ -76,12 +76,6 @@ class App extends React.Component {
               >
                 <img src="/static/edgeprop.jpg" width="100%" />
               </div>
-              <Post
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"
-              />
             </div>
             <div className="ads-right">
               <Ads />

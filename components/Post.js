@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import ReactMarkdown from 'react-markdown'
 const Post = props => (
   <div>
     <style jsx>
@@ -11,7 +11,11 @@ const Post = props => (
         }
       `}
     </style>
-    <p>{props.text}</p>
+    {props.content == undefined ? (
+      <p>Text failed to load, please refresh</p>
+    ) : (
+      <ReactMarkdown source="<h2>Hello this is paragraph<img src='/static/edgeprop.jpg'/></h2>" escapeHtml={false}/>
+    )}
   </div>
 );
 export default Post;
