@@ -1,12 +1,27 @@
 const ArticleHeader = props => (
   <div>
-    <style jsx>{``}</style>
-    <h1>{props.title}</h1>
-    <div>
+    <style jsx>{`
+      .tag {
+        font-size: 12px;
+        color: grey;
+      }
+      a {
+        margin-right: 7px;
+      }
+    `}</style>
+    <h2>{props.title}</h2>
+    <div className="tag">
       By: {props.detail.author} / {props.detail.company} |{" "}
       {props.detail.datetime}
     </div>
-    <div>Tags: {props.tag.map((item, key) => `${item}, `)}</div>
+    <div className="tag">
+      <div>
+        Tags:{" "}
+        {props.tag.map((item, key) => (
+          <a href={item.url}>{item.label}</a>
+        ))}
+      </div>
+    </div>
   </div>
 );
 export default ArticleHeader;

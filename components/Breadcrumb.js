@@ -1,21 +1,20 @@
 import Link from "next/link";
 
 const linkStyle = {
-  marginRight: 15,
-  fontFamily: "Poppins"
+  
 };
-const Breadcrumb = () => (
-  <div>
+const Breadcrumb = (props) => (
+  <div className={props.className}>
     <Link href="/">
       <a style={linkStyle}>Home</a>
-    </Link>
-    >
+    </Link>> {
+      " "
+    }
     <Link href="/profile">
-      <a style={linkStyle}>Profile</a>
-    </Link>
-    >
+      <a style={linkStyle}>Property News</a>
+    </Link>>{" "}
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <a style={linkStyle}>News</a>
     </Link>
   </div>
 );
