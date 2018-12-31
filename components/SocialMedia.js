@@ -1,13 +1,6 @@
 import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 
-const SosialMediaUrls = [
-  { title: "Whatsapp", url: "http://api.whatsapp.com/" },
-  { title: "LinkedIn", url: "http://linkedin.com/in/hilalarsa/" },
-  { title: "WeChat", url: "http://wechat.com" },
-  { title: "Facebook", url: "http://facebook.com/hilalarsa" },
-  { title: "Email", url: "http://mailto.com/hilalarsa" }
-];
 const SocialMedia = props => (
   <div>
     <style jsx>{`
@@ -15,7 +8,7 @@ const SocialMedia = props => (
         margin: 5px;
       }
     `}</style>
-    {SosialMediaUrls.map((item, key) => (
+    {props.socialmedia.map((item, key) => (
       <SocialIcon
         title={item.title}
         url={item.url}

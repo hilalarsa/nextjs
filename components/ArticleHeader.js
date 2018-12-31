@@ -7,6 +7,10 @@ const ArticleHeader = props => (
       }
       a {
         margin-right: 7px;
+        text-decoration: none;
+      }
+      h2 {
+        font-weight: 400;
       }
     `}</style>
     <h2>{props.title}</h2>

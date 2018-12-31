@@ -1,36 +1,41 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+
+//components
 import Ads from "../components/Ads";
 import ArticleHeader from "../components/ArticleHeader";
 import Breadcrumb from "../components/Breadcrumb";
 import Header from "../components/Header";
 import Post from "../components/Post";
 import SocialMedia from "../components/SocialMedia";
-//icons
+
+// misc package
+import moment from "moment";
+// example json from apis (assuming posts is in html/markdown format)
 const headers = {
   title: "Park View Mansions in second enbloc attempt this year",
   detail: {
-    author: "Someone",
-    company: "Something",
-    datetime: Date()
+    author: "Author name",
+    company: "EdgeProp Singapore",
+    datetime: moment().format(`MMMM DD, YYYY HH:mm a`)
   },
   tag: [
     {
       label: "property briefs",
-      url: "haha.com"
+      url: "google.com"
     },
     {
       label: "Park View Mansions",
-      url: "haha.com"
+      url: "google.com"
     },
     {
       label: "Jurong Lake Garden",
-      url: "haha.com"
+      url: "google.com"
     },
     {
       label: "Huttons Asia",
-      url: "haha.com"
+      url: "google.com"
     }
   ]
 };
@@ -43,24 +48,38 @@ const content = `
 <p>The amount of housing stock in the Jurong East area has not changed since 4Q2016, says Angela Lim, deputy head of investment sales at Huttons Asia. The last private development was the 710-unit Lake Grande by MCL Land which was sold out in less than three years, she says. “Hence Park View Gardens is an opportune choice for developers to replenish their land bank to match the growing and pent up demand in the Jurong area”.</p>
 <p>The public tender closes on January 18 next year.</p>
 `;
+const SosialMediaUrls = [
+  { title: "Whatsapp", url: "http://api.whatsapp.com/" },
+  { title: "LinkedIn", url: "http://linkedin.com/in/hilalarsa/" },
+  { title: "WeChat", url: "http://wechat.com" },
+  { title: "Facebook", url: "http://facebook.com/hilalarsa" },
+  { title: "Email", url: "http://mailto.com/hilalarsa" }
+];
+
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header title={headers.title} />
         <div>
-          <Breadcrumb className="breadcrumb" />
+          <Breadcrumb />
           <hr />
           <style global>
             {`
             div{
               font-family: "Poppins";
             }
+            p{
+              font-family: 'Open Sans', sans-serif;
+            }
             hr{
               border-color:#EEEEEE;
               background-color:#EEEEEE;
             }
             img{
+              width: 100%;
+              max-width: 700px;
+              height: auto;
             }
             figcaption{
               font-size:small;
@@ -72,37 +91,37 @@ class App extends React.Component {
             .flex-container {
               display: flex;
             }
-            .breadcrumb {
-              margin-right: 10;
-            }
             .post {
-              margin: 0 auto;
+              margin: auto;
               line-height: 1.7;
-              width: 66.6%;
+              max-width: 1200px;
             }
-            .ads-left {
-              width: 5%;
-              background-color: pink;
+            .socialmedia {
+              margin-bottom: 10px;
             }
-            .ads-right {
-              width: 33.3%;
-              background-color: pink;
+            @media (min-width: 1000px) {
+              .ads-right {
+                background-color: pink;
+                width: 33.3%;
+              }
             }
           `}</style>
           <div className="flex-container">
-            <div className="ads-left">
+            {/* <div className="ads-left">
               <Ads />
-            </div>
+            </div> */}
             <div className="post">
-              <ArticleHeader
-                title={headers.title}
-                detail={headers.detail}
-                tag={headers.tag}
-              />
-              <SocialMedia />
+              <div className="socialmedia">
+                <ArticleHeader
+                  title={headers.title}
+                  detail={headers.detail}
+                  tag={headers.tag}
+                />
+              </div>
+              <SocialMedia socialmedia={SosialMediaUrls} />
               <Post content={content} />
               <hr />
-              <SocialMedia />
+              <SocialMedia socialmedia={SosialMediaUrls} />
               <hr />
             </div>
             <div className="ads-right">

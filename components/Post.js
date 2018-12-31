@@ -5,7 +5,6 @@ const Post = props => (
     <style jsx>
       {`
         p {
-          background-color: pink;
           text-align: justify;
           font-family: "Open Sans", sans-serif;
         }
@@ -15,9 +14,6 @@ const Post = props => (
       <p>Text failed to load, please refresh</p>
     ) : (
       <>
-        {console.log(
-          <ReactMarkdown source={props.content} escapeHtml={false} />
-        )}
         <ReactMarkdown source={props.content} escapeHtml={false} />
       </>
     )}
