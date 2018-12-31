@@ -62,10 +62,15 @@ class App extends React.Component {
       <div>
         <Header title={headers.title} />
         <div>
-          <Breadcrumb />
+          <div className="breadcrumb">
+            <Breadcrumb />
+          </div>
           <hr />
           <style global>
             {`
+            body{
+              margin:0
+            }
             div{
               font-family: "Poppins";
             }
@@ -91,25 +96,25 @@ class App extends React.Component {
             .flex-container {
               display: flex;
             }
+            .breadcrumb {
+              margin: 10px;
+            }
             .post {
               margin: auto;
               line-height: 1.7;
-              max-width: 1200px;
+              max-width: 800px;
+              padding: 0 15px 15px 15px;
             }
             .socialmedia {
               margin-bottom: 10px;
             }
             @media (min-width: 1000px) {
               .ads-right {
-                background-color: pink;
                 width: 33.3%;
               }
             }
           `}</style>
           <div className="flex-container">
-            {/* <div className="ads-left">
-              <Ads />
-            </div> */}
             <div className="post">
               <div className="socialmedia">
                 <ArticleHeader
